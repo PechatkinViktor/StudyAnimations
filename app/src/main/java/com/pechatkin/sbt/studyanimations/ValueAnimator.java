@@ -15,11 +15,11 @@ public class ValueAnimator extends AppCompatActivity {
     private static final String ALPHA = "alpha";
     private static final String SCALE = "scale";
 
-    ImageView imageView;
+    private ImageView imageView;
     private List<Animator> mAnimators;
-    PropertyValuesHolder alphaHolder;
-    PropertyValuesHolder scaleHolder;
-    android.animation.ValueAnimator animator;
+    private PropertyValuesHolder alphaHolder;
+    private PropertyValuesHolder scaleHolder;
+    private android.animation.ValueAnimator animator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

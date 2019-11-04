@@ -15,10 +15,10 @@ public class ObjectAnimator extends AppCompatActivity {
     public static final String ROTATION = "rotation";
 
     private List<Animator> mAnimators;
-    ImageView imageView;
-    float translationY;
-    android.animation.ObjectAnimator rotationAnimator;
-    android.animation.ObjectAnimator translationAnimator;
+    private ImageView imageView;
+    private float translationY;
+    private android.animation.ObjectAnimator rotationAnimator;
+    private android.animation.ObjectAnimator translationAnimator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

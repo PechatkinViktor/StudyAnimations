@@ -12,9 +12,9 @@ import android.view.animation.ScaleAnimation;
 public class ViewAnimations extends AppCompatActivity {
 
     private View mView;
-    ScaleAnimation scaleAnimation;
-    AlphaAnimation alphaAnimation;
-    AnimationSet animations;
+    private ScaleAnimation scaleAnimation;
+    private AlphaAnimation alphaAnimation;
+    private AnimationSet animations;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -10,7 +10,7 @@ import com.pechatkin.sbt.studyanimations.financeprogressview.FinanceProgressView
 
 public class CustomViewAnimations extends AppCompatActivity {
 
-    FinanceProgressView financeProgressView;
+    private FinanceProgressView financeProgressView;
     private ObjectAnimator mAnimator;
 
     @Override
