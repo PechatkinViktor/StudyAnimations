@@ -5,4 +5,5 @@
     <string name="value_animator">valueAnimator</string>
     <string name="object_animator">objectAnimator</string>
     <string name="custom_view_animations">customViewAnimations</string>
+    <string name="progress_template">%d %%</string>
 </resources>

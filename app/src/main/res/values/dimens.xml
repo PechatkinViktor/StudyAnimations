@@ -3,4 +3,6 @@
     <dimen name="default_margin">10dp</dimen>
     <dimen name="image_view_size">100dp</dimen>
     <dimen name="translationY">150dp</dimen>
+    <dimen name="defaultTextSize">32sp</dimen>
+    <dimen name="defaultStrokeWidth">16dp</dimen>
 </resources>
