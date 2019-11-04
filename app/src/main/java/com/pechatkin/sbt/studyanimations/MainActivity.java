@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         onClickGoTo(R.id.valueAnimator, ValueAnimator.class);
         onClickGoTo(R.id.objectAnimator, ObjectAnimator.class);
         onClickGoTo(R.id.customViewAnimations, CustomViewAnimations.class);
+        onClickGoTo(R.id.viewAnimations, ViewAnimations.class);
     }
 
     private void onClickGoTo(int viewId, Class<? extends Activity> whereToGo) {
