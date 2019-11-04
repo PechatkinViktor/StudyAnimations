@@ -6,7 +6,7 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-public class FrameToFrame extends AppCompatActivity {
+public class FrameByFrame extends AppCompatActivity {
 
     private ImageView mHorseImageView;
     private AnimationDrawable mDrawable;
@@ -14,7 +14,7 @@ public class FrameToFrame extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frame_to_frame);
+        setContentView(R.layout.activity_frame_by_frame);
 
         init();
 

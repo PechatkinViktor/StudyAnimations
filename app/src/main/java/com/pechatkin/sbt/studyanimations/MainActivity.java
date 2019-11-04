@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        onClickGoTo(R.id.animationFrameToFrame, FrameToFrame.class);
+        onClickGoTo(R.id.animationFrameToFrame, FrameByFrame.class);
     }
 
     private void onClickGoTo(int viewId, Class<? extends Activity> whereToGo) {
