@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewAnimations"></activity>
+        <activity android:name=".ValueAnimator"></activity>
         <activity android:name=".FrameByFrame" />
         <activity android:name=".MainActivity">
             <intent-filter>

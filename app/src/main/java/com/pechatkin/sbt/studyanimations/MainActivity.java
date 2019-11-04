@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         onClickGoTo(R.id.animationFrameToFrame, FrameByFrame.class);
+        onClickGoTo(R.id.valueAnimator, ValueAnimator.class);
     }
 
     private void onClickGoTo(int viewId, Class<? extends Activity> whereToGo) {
